@@ -1,0 +1,542 @@
+Python 3.7.16
+# conda environments:
+#
+base                     /global/software/anaconda/anaconda3-2018.12
+                         /home/seyedemahsa.dibaji/miniconda3
+                         /work/souza_lab/mahsa/software/miniconda3
+                         /work/souza_lab/mahsa/software/miniconda3/envs/pytorch-dl
+                      *  /work/souza_lab/mahsa/software/miniconda3/envs/torch-dl
+                         /work/souza_lab/mahsa/software/miniconda3/envs/torch-env
+
+# packages in environment at /work/souza_lab/mahsa/software/miniconda3/envs/torch-dl:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+_pytorch_select           0.2                       gpu_0  
+beautifulsoup4            4.11.2                   pypi_0    pypi
+blas                      1.0                         mkl  
+brotlipy                  0.7.0           py37h27cfd23_1003  
+ca-certificates           2023.01.10           h06a4308_0  
+certifi                   2022.12.7        py37h06a4308_0  
+cffi                      1.15.1           py37h5eee18b_3  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+cryptography              39.0.1           py37h9ce1e76_0  
+cudatoolkit               10.0.130                      0  
+cudnn                     7.6.5                cuda10.0_0  
+cycler                    0.11.0                   pypi_0    pypi
+filelock                  3.9.0                    pypi_0    pypi
+flit-core                 3.6.0              pyhd3eb1b0_0  
+fonttools                 4.38.0                   pypi_0    pypi
+freetype                  2.12.1               h4a9f257_0  
+gdown                     4.6.4                    pypi_0    pypi
+giflib                    5.2.1                h5eee18b_3  
+idna                      3.4              py37h06a4308_0  
+intel-openmp              2023.0.0         h9e868ea_25371  
+jpeg                      9e                   h7f8727e_0  
+kiwisolver                1.4.4                    pypi_0    pypi
+lcms2                     2.12                 h3be6417_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+lerc                      3.0                  h295c915_0  
+libdeflate                1.17                 h5eee18b_0  
+libffi                    3.4.2                h6a678d5_6  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libpng                    1.6.37               hbc83047_0  
+libstdcxx-ng              11.2.0               h1234567_1  
+libtiff                   4.5.0                h6a678d5_2  
+libwebp                   1.2.4                h11a3e52_1  
+libwebp-base              1.2.4                h5eee18b_1  
+lz4-c                     1.9.4                h6a678d5_0  
+matplotlib                3.5.3                    pypi_0    pypi
+mkl                       2020.2                      256  
+mkl-service               2.3.0            py37he8ac12f_0  
+mkl_fft                   1.3.0            py37h54f3939_0  
+mkl_random                1.1.1            py37h0573a6f_0  
+monai-weekly              1.2.dev2309              pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0  
+nibabel                   4.0.2                    pypi_0    pypi
+ninja                     1.10.2               h06a4308_5  
+ninja-base                1.10.2               hd09550d_5  
+numpy                     1.21.6                   pypi_0    pypi
+nvidia-cublas-cu11        11.10.3.66               pypi_0    pypi
+nvidia-cuda-nvrtc-cu11    11.7.99                  pypi_0    pypi
+nvidia-cuda-runtime-cu11  11.7.99                  pypi_0    pypi
+nvidia-cudnn-cu11         8.5.0.96                 pypi_0    pypi
+openssl                   1.1.1t               h7f8727e_0  
+packaging                 23.0                     pypi_0    pypi
+pandas                    1.3.5                    pypi_0    pypi
+pillow                    9.4.0            py37h6a678d5_0  
+pip                       22.3.1           py37h06a4308_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 23.0.0           py37h06a4308_0  
+pyparsing                 3.0.9                    pypi_0    pypi
+pysocks                   1.7.1                    py37_1  
+python                    3.7.16               h7a1cb2a_0  
+python-dateutil           2.8.2                    pypi_0    pypi
+pytorch-gpu               1.3.1                         0  
+pytorch-ignite            0.4.10                   pypi_0    pypi
+pytz                      2022.7.1                 pypi_0    pypi
+readline                  8.2                  h5eee18b_0  
+requests                  2.28.1           py37h06a4308_0  
+setuptools                65.6.3           py37h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soupsieve                 2.4                      pypi_0    pypi
+sqlite                    3.40.1               h5082296_0  
+tk                        8.6.12               h1ccaba5_0  
+torch                     1.13.1                   pypi_0    pypi
+torchvision               0.13.1          cpu_py37h164cc8f_0  
+tqdm                      4.64.1                   pypi_0    pypi
+typing_extensions         4.4.0            py37h06a4308_0  
+urllib3                   1.26.14          py37h06a4308_0  
+wheel                     0.38.4           py37h06a4308_0  
+xz                        5.2.10               h5eee18b_1  
+zlib                      1.2.13               h5eee18b_0  
+zstd                      1.5.2                ha4553b6_0  
+/work/souza_lab/mahsa/software/miniconda3/envs/torch-dl/lib/python3.7/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/souza_lab/mahsa/software/miniconda3/envs/torch-dl/lib/python3.7/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+  warn(f"Failed to load image Python extension: {e}")
+/work/souza_lab/mahsa/software/miniconda3/envs/torch-dl/lib/python3.7/site-packages/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+  warn_deprecated(argname, msg, warning_category)
+/work/souza_lab/mahsa/U-Net-Segmentation/Scripts/training.py:56: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()
+source images size: 359
+source masks size: 359
+Shape source images: (359, 1)
+Shape source masks: (359, 1)
+Source train set size: 251
+Source val set size: 108
+Source train batch shape: torch.Size([8, 1, 112, 112, 112]) torch.Size([8, 1, 112, 112, 112])
+Source train batch min-max: -0.10573382 0.9480519
+[0. 1.]
+Source val batch shape: torch.Size([8, 1, 112, 112, 112]) torch.Size([8, 1, 112, 112, 112])
+Source val batch min-max: -0.106995314 0.9900991
+[0. 1.]
+Source train batch shape: torch.Size([8, 1, 112, 112, 112]) torch.Size([8, 1, 112, 112, 112])
+Source train batch min-max: -0.08203898 0.9688993
+[0. 1.]
+Source val batch shape: torch.Size([8, 1, 112, 112, 112]) torch.Size([8, 1, 112, 112, 112])
+Source val batch min-max: -0.05170753 0.95815897
+[0. 1.]
+Start of training...
+Epoch  1
+Train:================================
+Val:==============
+Training epoch  1 , train loss: 0.23171008913777769 , val loss: 0.6366217008658818
+Saving model
+Epoch  2
+Train:================================
+Val:==============
+Training epoch  2 , train loss: 0.3511851942166686 , val loss: 0.2405877975480897
+Saving model
+Epoch  3
+Train:================================
+Val:==============
+Training epoch  3 , train loss: 0.20855196472257376 , val loss: 0.18422518244811467
+Saving model
+Epoch  4
+Train:================================
+Val:==============
+Training epoch  4 , train loss: 0.1893949070945382 , val loss: 0.2055767806512969
+Epoch  5
+Train:================================
+Val:==============
+Training epoch  5 , train loss: 0.15610536432359368 , val loss: 0.11905580359910216
+Saving model
+Epoch  6
+Train:================================
+Val:==============
+Training epoch  6 , train loss: 0.11366712872404605 , val loss: 0.20869905288730348
+Epoch  7
+Train:================================
+Val:==============
+Training epoch  7 , train loss: 0.11719593044836074 , val loss: 0.09754434627081666
+Saving model
+Epoch  8
+Train:================================
+Val:==============
+Training epoch  8 , train loss: 0.09208967047743499 , val loss: 0.11131639246429716
+Epoch  9
+Train:================================
+Val:==============
+Training epoch  9 , train loss: 0.08948192466050386 , val loss: 0.0837458845760141
+Saving model
+Epoch  10
+Train:================================
+Val:==============
+Training epoch  10 , train loss: 0.09180373651906848 , val loss: 0.09908480356846537
+Epoch  11
+Train:================================
+Val:==============
+Training epoch  11 , train loss: 0.0910489511443302 , val loss: 0.1608403708253588
+Epoch  12
+Train:================================
+Val:==============
+Training epoch  12 , train loss: 0.10275405494030565 , val loss: 0.1005017946341208
+Epoch  13
+Train:================================
+Val:==============
+Training epoch  13 , train loss: 0.08357158559374511 , val loss: 0.0717584200735603
+Saving model
+Epoch  14
+Train:================================
+Val:==============
+Training epoch  14 , train loss: 0.08591120282653719 , val loss: 0.128520453614848
+Epoch  15
+Train:================================
+Val:==============
+Training epoch  15 , train loss: 0.08444548794068396 , val loss: 0.06284633624766554
+Saving model
+Epoch  16
+Train:================================
+Val:==============
+Training epoch  16 , train loss: 0.11168515379540622 , val loss: 0.07520512544683047
+Epoch  17
+Train:================================
+Val:==============
+Training epoch  17 , train loss: 0.08266761363483965 , val loss: 0.0821424847734826
+Epoch  18
+Train:================================
+Val:==============
+Training epoch  18 , train loss: 0.07382074999623 , val loss: 0.0745310727506876
+Epoch  19
+Train:================================
+Val:==============
+Training epoch  19 , train loss: 0.07369907561223954 , val loss: 0.08338926200355802
+Epoch  20
+Train:================================
+Val:==============
+Training epoch  20 , train loss: 0.06449781206902117 , val loss: 0.0841816889920405
+Epoch  21
+Train:================================
+Val:==============
+Training epoch  21 , train loss: 0.07521002436988056 , val loss: 0.06883965991437435
+Epoch  22
+Train:================================
+Val:==============
+Training epoch  22 , train loss: 0.0622552465647459 , val loss: 0.07054559806627887
+Epoch  23
+Train:================================
+Val:==============
+Training epoch  23 , train loss: 0.08169634744990617 , val loss: 0.0794243330934218
+Epoch  24
+Train:================================
+Val:==============
+Training epoch  24 , train loss: 0.06710477347951382 , val loss: 0.06238318208072867
+Saving model
+Epoch  25
+Train:================================
+Val:==============
+Training epoch  25 , train loss: 0.06526105001103133 , val loss: 0.05804032300199781
+Saving model
+Epoch  26
+Train:================================
+Val:==============
+Training epoch  26 , train loss: 0.07570474385283887 , val loss: 0.08751002885401249
+Epoch  27
+Train:================================
+Val:==============
+Training epoch  27 , train loss: 0.0684055463061668 , val loss: 0.055281952023506165
+Saving model
+Epoch  28
+Train:================================
+Val:==============
+Training epoch  28 , train loss: 0.05256060231477022 , val loss: 0.052313829106943946
+Saving model
+Epoch  29
+Train:================================
+Val:==============
+Training epoch  29 , train loss: 0.059405956184491515 , val loss: 0.0706012174487114
+Epoch  30
+Train:================================
+Val:==============
+Training epoch  30 , train loss: 0.05453810072503984 , val loss: 0.05523019177573068
+Epoch  31
+Train:================================
+Val:==============
+Training epoch  31 , train loss: 0.06085058709140867 , val loss: 0.05822631264371531
+Epoch  32
+Train:================================
+Val:==============
+Training epoch  32 , train loss: 0.05917658226098865 , val loss: 0.05025730388505118
+Saving model
+Epoch  33
+Train:================================
+Val:==============
+Training epoch  33 , train loss: 0.04990507150068879 , val loss: 0.07556046678551606
+Epoch  34
+Train:================================
+Val:==============
+Training epoch  34 , train loss: 0.04778611264191568 , val loss: 0.04655609306480203
+Saving model
+Epoch  35
+Train:================================
+Val:==============
+Training epoch  35 , train loss: 0.05271787691162899 , val loss: 0.053753546572157314
+Epoch  36
+Train:================================
+Val:==============
+Training epoch  36 , train loss: 0.052329622907564044 , val loss: 0.05204759591392109
+Epoch  37
+Train:================================
+Val:==============
+Training epoch  37 , train loss: 0.050577326910570264 , val loss: 0.04996952574167933
+Epoch  38
+Train:================================
+Val:==============
+Training epoch  38 , train loss: 0.0625161633361131 , val loss: 0.06242434387760503
+Epoch  39
+Train:================================
+Val:==============
+Training epoch  39 , train loss: 0.04288003843976185 , val loss: 0.04184621785368238
+Saving model
+Epoch  40
+Train:================================
+Val:==============
+Training epoch  40 , train loss: 0.050417018006555736 , val loss: 0.05795525014400482
+Epoch  41
+Train:================================
+Val:==============
+Training epoch  41 , train loss: 0.050141937914304435 , val loss: 0.042990232950874736
+Epoch  42
+Train:================================
+Val:==============
+Training epoch  42 , train loss: 0.055137981893494725 , val loss: 0.041847417663250654
+Epoch  43
+Train:================================
+Val:==============
+Training epoch  43 , train loss: 0.043553215567953885 , val loss: 0.05815771275332996
+Epoch  44
+Train:================================
+Val:==============
+Training epoch  44 , train loss: 0.05648507794830948 , val loss: 0.054620402199881415
+Epoch  45
+Train:================================
+Val:==============
+Training epoch  45 , train loss: 0.05495371459983289 , val loss: 0.05205850675702095
+Epoch  46
+Train:================================
+Val:==============
+Training epoch  46 , train loss: 0.05497038445901126 , val loss: 0.06234290637075901
+Epoch  47
+Train:================================
+Val:==============
+Training epoch  47 , train loss: 0.05164420930668712 , val loss: 0.04476814584008285
+Epoch  48
+Train:================================
+Val:==============
+Training epoch  48 , train loss: 0.054098037304356694 , val loss: 0.06292727190468993
+Epoch  49
+Train:================================
+Val:==============
+Training epoch  49 , train loss: 0.0529200304299593 , val loss: 0.035266422267471044
+Saving model
+Epoch  50
+Train:================================
+Val:==============
+Training epoch  50 , train loss: 0.05093749053776264 , val loss: 0.04303609446755478
+Epoch  51
+Train:================================
+Val:==============
+Training epoch  51 , train loss: 0.04010202898643911 , val loss: 0.030517689883708954
+Saving model
+Epoch  52
+Train:================================
+Val:==============
+Training epoch  52 , train loss: 0.042553088278509676 , val loss: 0.03182373781289373
+Epoch  53
+Train:================================
+Val:==============
+Training epoch  53 , train loss: 0.04810967156663537 , val loss: 0.031690778476851325
+Epoch  54
+Train:================================
+Val:==============
+Training epoch  54 , train loss: 0.04021264228504151 , val loss: 0.05289640463888645
+Epoch  55
+Train:================================
+Val:==============
+Training epoch  55 , train loss: 0.04447385808452964 , val loss: 0.18045165921960557
+Epoch  56
+Train:================================
+Val:==============
+Training epoch  56 , train loss: 0.07484045973978937 , val loss: 0.07896031572350434
+Epoch  57
+Train:================================
+Val:==============
+Training epoch  57 , train loss: 0.058465031906962395 , val loss: 0.043155475918735774
+Epoch  58
+Train:================================
+Val:==============
+Training epoch  58 , train loss: 0.04819831805070862 , val loss: 0.04562379313366754
+Epoch  59
+Train:================================
+Val:==============
+Training epoch  59 , train loss: 0.039134607824962586 , val loss: 0.031154214537569454
+Epoch  60
+Train:================================
+Val:==============
+Training epoch  60 , train loss: 0.04311900958418846 , val loss: 0.04089716768690518
+Epoch  61
+Train:================================
+Val:==============
+Training epoch  61 , train loss: 0.044141686987131834 , val loss: 0.03837285802832672
+Epoch  62
+Train:================================
+Val:==============
+Training epoch  62 , train loss: 0.04722726374166086 , val loss: 0.041696413553186824
+Epoch  63
+Train:================================
+Val:==============
+Training epoch  63 , train loss: 0.05526378832291812 , val loss: 0.03925659640559128
+Epoch  64
+Train:================================
+Val:==============
+Training epoch  64 , train loss: 0.03756187093676999 , val loss: 0.051872572994657924
+Epoch  65
+Train:================================
+Val:==============
+Training epoch  65 , train loss: 0.03950962703675032 , val loss: 0.036791734131319184
+Epoch  66
+Train:================================
+Val:==============
+Training epoch  66 , train loss: 0.039462878892663866 , val loss: 0.03504467037107263
+Epoch  67
+Train:================================
+Val:==============
+Training epoch  67 , train loss: 0.04164246085565537 , val loss: 0.035476651574884145
+Epoch  68
+Train:================================
+Val:==============
+Training epoch  68 , train loss: 0.035580913769081235 , val loss: 0.025462203792163303
+Saving model
+Epoch  69
+Train:================================
+Val:==============
+Training epoch  69 , train loss: 0.038666340871714056 , val loss: 0.03751193732023239
+Epoch  70
+Train:================================
+Val:==============
+Training epoch  70 , train loss: 0.03615757846273482 , val loss: 0.0402850474097899
+Epoch  71
+Train:================================
+Val:==============
+Training epoch  71 , train loss: 0.03741624066606164 , val loss: 0.0336997216301305
+Epoch  72
+Train:================================
+Val:==============
+Training epoch  72 , train loss: 0.039605931437108666 , val loss: 0.02944699302315712
+Epoch  73
+Train:================================
+Val:==============
+Training epoch  73 , train loss: 0.03211191750597209 , val loss: 0.03067384527197906
+Epoch  74
+Train:================================
+Val:==============
+Training epoch  74 , train loss: 0.033637164102401584 , val loss: 0.02769843994506768
+Epoch  75
+Train:================================
+Val:==============
+Training epoch  75 , train loss: 0.04331903008278459 , val loss: 0.03664275498262474
+Epoch  76
+Train:================================
+Val:==============
+Training epoch  76 , train loss: 0.04501379968132824 , val loss: 0.04604314187807696
+Epoch  77
+Train:================================
+Val:==============
+Training epoch  77 , train loss: 0.03539714147336781 , val loss: 0.029390540240066394
+Epoch  78
+Train:================================
+Val:==============
+Training epoch  78 , train loss: 0.04009763745125383 , val loss: 0.029395772676382746
+Epoch  79
+Train:================================
+Val:==============
+Training epoch  79 , train loss: 0.03023528610356152 , val loss: 0.028979372499244555
+Epoch  80
+Train:================================
+Val:==============
+Training epoch  80 , train loss: 0.0281753686722368 , val loss: 0.03194468521646091
+Epoch  81
+Train:================================
+Val:==============
+Training epoch  81 , train loss: 0.028977070818655193 , val loss: 0.03297513084752219
+Epoch  82
+Train:================================
+Val:==============
+Training epoch  82 , train loss: 0.02979199797846377 , val loss: 0.03278083886419024
+Epoch  83
+Train:================================
+Val:==============
+Training epoch  83 , train loss: 0.029329259239602834 , val loss: 0.027940239757299423
+Epoch  84
+Train:================================
+Val:==============
+Training epoch  84 , train loss: 0.04738799890037626 , val loss: 0.03899270349315235
+Epoch  85
+Train:================================
+Val:==============
+Training epoch  85 , train loss: 0.0362368640198838 , val loss: 0.03431610044624124
+Epoch  86
+Train:================================
+Val:==============
+Training epoch  86 , train loss: 0.03267969808075577 , val loss: 0.02534079072730882
+Saving model
+Epoch  87
+Train:================================
+Val:==============
+Training epoch  87 , train loss: 0.032811946992296726 , val loss: 0.039056941866874695
+Epoch  88
+Train:================================
+Val:==============
+Training epoch  88 , train loss: 0.031542989891022444 , val loss: 0.02912311681679317
+Epoch  89
+Train:================================
+Val:==============
+Training epoch  89 , train loss: 0.030415670131333172 , val loss: 0.034305923751422336
+Epoch  90
+Train:================================
+Val:==============
+Training epoch  90 , train loss: 0.030158531619235873 , val loss: 0.0257662795484066
+Epoch  91
+Train:================================
+Val:==============
+Training epoch  91 , train loss: 0.03544800390955061 , val loss: 0.02748140612883227
+Epoch  92
+Train:================================
+Val:==============
+Training epoch  92 , train loss: 0.030668348423205316 , val loss: 0.027738478566919054
+Epoch  93
+Train:================================
+Val:==============
+Training epoch  93 , train loss: 0.03070874302648008 , val loss: 0.028021107028637613
+Epoch  94
+Train:================================
+Val:==============
+Training epoch  94 , train loss: 0.030673106433823705 , val loss: 0.07737113854714803
+Epoch  95
+Train:================================
+Val:==============
+Training epoch  95 , train loss: 0.03921391232870519 , val loss: 0.0245846403496606
+Saving model
+Epoch  96
+Train:================================
+Val:==============
+Training epoch  96 , train loss: 0.035176617675460875 , val loss: 0.028087567538022995
+Epoch  97
+Train:================================
+Val:==============
+Training epoch  97 , train loss: 0.03365426609525457 , val loss: 0.0339096055499145
+Epoch  98
+Train:================================
+Val:==============
+Training epoch  98 , train loss: 0.029477379634045064 , val loss: 0.029105004455362047
+Epoch  99
+Train:================================
+Val:==============
+Training epoch  99 , train loss: 0.038535703788511455 , val loss: 0.02292974160185882
+Saving model
+Epoch  100
+Train:================================
+Val:==============
+Training epoch  100 , train loss: 0.03921229881234467 , val loss: 0.029369448444672992
+End of training.
